@@ -1,4 +1,4 @@
-package stackkk;
+
 
 public class Stack {
     private int[] stack;
@@ -51,11 +51,11 @@ public class Stack {
         s.push(10);
         s.push(15);
 
-        System.out.println("Top: " + s.peek());    // 15
-        System.out.println("Size: " + s.size());   // 3
+        System.out.println("Top: " + s.peek());   
+        System.out.println("Size: " + s.size());   
 
-        System.out.println("Popped: " + s.pop());  // 15
-        System.out.println("Top now: " + s.peek()); // 10
-        System.out.println("Is empty? " + s.isEmpty()); // false
+        System.out.println("Popped: " + s.pop());  
+        System.out.println("Top now: " + s.peek()); 
+        System.out.println("Is empty? " + s.isEmpty()); 
     }
 }

@@ -1,4 +1,4 @@
-package stackkk;
+
 
 import java.util.Scanner;
 

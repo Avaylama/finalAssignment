@@ -1,4 +1,4 @@
-package stackkk;
+
 
 public class CustomStack {
     private int[] stack;
